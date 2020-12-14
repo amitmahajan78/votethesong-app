@@ -7,9 +7,9 @@ $(document).ready(function () {
 });
 
 var vote_endpoint =
-  "https://mlfa0fbvg2.execute-api.eu-west-2.amazonaws.com/dev/song/vote";
+  "https://REPLACE_WITH_APIGATEWAY_ID.execute-api.eu-west-2.amazonaws.com/dev/vote";
 var get_votes_endpoint =
-  "https://mlfa0fbvg2.execute-api.eu-west-2.amazonaws.com/dev/votes";
+  "https://REPLACE_WITH_APIGATEWAY_ID.execute-api.eu-west-2.amazonaws.com/dev/song";
 
 function setVotes(songName, voteCount) {
   // Get div containing vote count and set the new voteCount
